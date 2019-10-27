@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker {image "node:10"}}
+    agent { label "nodejs"}
 
     stages {
         stage ("npm") {
